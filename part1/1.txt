@@ -1,0 +1,5 @@
+PS C:\Program Files\Docker\Docker> docker ps -a
+CONTAINER ID   IMAGE                    COMMAND                  CREATED          STATUS                      PORTS                               NAMES
+9ca1e3a99e85   docker/getting-started   "/docker-entrypoint.…"   32 seconds ago   Exited (0) 11 seconds ago                                       blissful_mestorf
+c1bbb007e96e   docker/getting-started   "/docker-entrypoint.…"   42 seconds ago   Exited (0) 10 seconds ago                                       relaxed_newton
+d341bf14b622   docker/getting-started   "/docker-entrypoint.…"   3 minutes ago    Up 2 minutes                0.0.0.0:80->80/tcp, :::80->80/tcp   charming_lamarr

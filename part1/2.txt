@@ -1,0 +1,4 @@
+PS C:\Program Files\Docker\Docker> docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+PS C:\Program Files\Docker\Docker> docker images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
