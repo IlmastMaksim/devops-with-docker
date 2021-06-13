@@ -1,0 +1,2 @@
+docker build . -t exercise-8
+docker run -it exercise-8  
