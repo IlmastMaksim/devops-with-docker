@@ -1,7 +1,3 @@
 FROM devopsdockeruh/simple-web-service:alpine
 
-WORKDIR /usr/src/app
-
-COPY hello.sh .
-
-CMD ./hello.sh
+CMD ["server"]
