@@ -12,4 +12,4 @@ RUN yarn run build
 
 RUN yarn global add serve
 
-CMD ["serve", "-s", "-l", "5000", "build"]
+CMD ["serve", "-s", "build"]
