@@ -4,6 +4,8 @@ EXPOSE 5000
 
 WORKDIR /usr/src/app
 
+ENV REACT_APP_BACKEND_URL=http://localhost:8080
+
 COPY . .
 
 RUN npm install
